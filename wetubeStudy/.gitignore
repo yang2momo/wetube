@@ -100,7 +100,7 @@ dist
 
 # FuseBox cache
 .fusebox/
-package-lock.json
+
 
 # DynamoDB Local files
 .dynamodb/
@@ -111,3 +111,4 @@ package-lock.json
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
 
+package-lock.json
