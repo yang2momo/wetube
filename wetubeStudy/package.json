@@ -4,7 +4,6 @@
   "description": "Cloning Youtube with Canilla and NodeJS",
   "main": "index.js",
   "author": "momoyang",
-  "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
   }

@@ -1,4 +1,4 @@
-node_moules
+node_modules
 # Logs
 logs
 *.log
@@ -100,7 +100,6 @@ dist
 
 # FuseBox cache
 .fusebox/
-
 
 # DynamoDB Local files
 .dynamodb/
