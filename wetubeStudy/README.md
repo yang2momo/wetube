@@ -6,9 +6,9 @@ Cloning Youtube with Canilla and NodeJS
 
 - [ ] Home
 
-- [ ] Join
+- [x] Join
 
-- [ ] Home
+- [x] Home
 
 - [x] Search
 
