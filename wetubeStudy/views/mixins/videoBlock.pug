@@ -1,1 +1,7 @@
-mixin video()
+mixin videoBlock(video = {})
+    //- h1=video.title
+    //- p=video.description
+    .videoBlock
+        video.videoBlock__thumbnail(scr=video.videoFile,controls=true)
+        h4.videoBlock__title=video.title 
+        h6.videoBlock__views=video.views
