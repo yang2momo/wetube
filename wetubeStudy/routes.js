@@ -48,7 +48,7 @@ const routes = {
         } else {
             return VIDEO_DETAIL;
         }
-    },,
+    },
     editVideo: EDIT_VIDEO,
     deleteVideo: DELETE_VIDEO
 };
