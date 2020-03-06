@@ -6,7 +6,7 @@ import bodyParser from "body-Parser";
 
 import routes from "./routes"
 
-import Router from "./routers/router";
+import globalRouter from "./routers/globalRouter";
 import { localMiddleware } from "./middleware";
 
 const app = express();
@@ -18,10 +18,9 @@ app.use(cookieParser());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(morgan("dev"));
-
 app.use(localMiddleware)
 
-app.use(routes.home, Router);
+app.use(routes.home, globalRouter);
 
 
 
