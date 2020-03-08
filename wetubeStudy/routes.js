@@ -8,10 +8,9 @@ const SEARCH = "/search";
 // Users
 
 const USERS = "/users";
-const CHANGE_PASSWORD = "/change-password";
 const USER_DETAIL = "/:id";
 const EDIT_PROFILE = "/edit-profile";
-
+const CHANGE_PASSWORD = "/change-password";
 
 // Videos
 
@@ -21,9 +20,6 @@ const VIDEO_DETAIL = "/:id";
 const EDIT_VIDEO = "/:id/edit";
 const DELETE_VIDEO = "/:id/delete";
 
-
-// object
-
 const routes = {
     home: HOME,
     join: JOIN,
@@ -31,7 +27,6 @@ const routes = {
     logout: LOGOUT,
     search: SEARCH,
     users: USERS,
-    changePassword: CHANGE_PASSWORD,
     userDetail: id => {
         if (id) {
             return `/users/${id}`;
@@ -40,6 +35,7 @@ const routes = {
         }
     },
     editProfile: EDIT_PROFILE,
+    changePassword: CHANGE_PASSWORD,
     videos: VIDEOS,
     upload: UPLOAD,
     videoDetail: id => {
