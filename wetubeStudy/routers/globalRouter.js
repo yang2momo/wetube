@@ -13,6 +13,7 @@ globalRouter.post(routes.join, postJoin);
 globalRouter.get(routes.login, getLogin);
 globalRouter.post(routes.login, postLogin);
 
+
 // videoController.js
 globalRouter.get(routes.home, home);
 globalRouter.get(routes.search, search);
